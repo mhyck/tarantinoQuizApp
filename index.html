@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<head>
+	<!-- meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi" />
+	<!-- google fonts -->
+
+	<!-- font awesome -->
+	<!-- <script src="https://use.fontawesome.com/33adcd4c82.js"></script> -->
+	<!-- favorite icon -->
+	<link rel="favorite Icon" href="img/favicon.ico">
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- animate css -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- title -->
+	<title>quizApp</title>
+</head>
+<body>
+	<body>
+	<div class="container">
+		<h1 class="title">Quentin Tarantino Movie Quiz</h1>
+		<div class="row">
+			<form class="col-sm-7">
+				<div class="form-group">
+					<h4 id="question0"></h4>
+					<input id="answer0" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<h4 id="question1"></h4>
+					<input id="answer1" type="text" class="form-control">
+				</div class="form-group">
+				<div class="form-group">
+					<h4 id="question2"></h4>
+					<input id="answer2" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<h4 id="question3"></h4>
+					<input id="answer3" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<h4 id="question4"></h4>
+					<input id="answer4" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<h4 id="question5"></h4>
+					<input id="answer5" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<h4 id="question6"></h4>
+					<input id="answer6" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<h4 id="question7"></h4>
+					<input id="answer7" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<h4 id="question8"></h4>
+					<input id="answer8" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<h4 id="question9"></h4>
+					<input id="answer9" type="text" class="form-control">
+				</div>
+				<br>
+				<button type="button" onclick="testResults()" class="btn btn-primary btn-lg">See Results</button>
+			</form>
+			<div class="col-sm-2 col-sm-offset-1">
+				<h1 class="correct">Correct: <span id="correct"></span></h1>
+				<h1 class="incorrect">Incorrect:  <span id="incorrect"></span></h1>
+			</div>
+		</div>
+	</div>
+
+	<!-- bootstrap and javascript -->
+	<script src="js/bootstrap.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
